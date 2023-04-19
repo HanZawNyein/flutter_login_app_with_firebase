@@ -7,7 +7,20 @@ class TAppTheme {
 
   static ThemeData lightTheme = ThemeData(
     brightness: Brightness.light,
+    appBarTheme: const AppBarTheme(backgroundColor: Colors.amber),
     textTheme: TTextTheme.lightTextTheme,
+    // colorSchemeSeed: ColorScheme(
+    //     background: Color(0xFFFFFF200),
+    //     brightness: Brightness.light,
+    //     primary: Colors.amber,
+    //     onPrimary: Colors.amber,
+    //     secondary: Colors.amber,
+    //     onSecondary: Colors.amber,
+    //     error: Colors.amber,
+    //     onError: Colors.amber,
+    //     onBackground: Colors.amber,
+    //     surface: Colors.amber,
+    //     onSurface: Colors.amber),
     elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(backgroundColor: Colors.red)),
   );
